@@ -1,0 +1,15 @@
+type User {
+	id: ID
+	nombre: String
+	email: String
+}
+
+type Book {
+	title: String
+	author: String
+}
+
+type Query {
+	books: [Book]
+	users: [User]
+}
